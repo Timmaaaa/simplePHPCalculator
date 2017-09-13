@@ -40,9 +40,9 @@ if (isset($_GET['key'])) {
          #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Rechenlogik ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             #print_r($zahlen) . "<br>";
       $summe = "";
-    $value_1 = "";
-   $operator = "";
-    $value_2 = "";
+    $value_1 = "10";
+   $operator = "+";
+    $value_2 = "5";
         
         switch($operator){                                     
                    case "+":
@@ -64,7 +64,7 @@ if (isset($_GET['key'])) {
                            $summe = $value_1 / $value_2;
                            $Eingabe = $summe;
                        }
-                   break;https://github.com/Timmaaaa/simplePHPCalculator
+                   break;
                    default:
                        echo "please define a calculation" ."<br/>";    
       
@@ -72,7 +72,7 @@ if (isset($_GET['key'])) {
   } #end else    
 } #end isset
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Rechenverlauf ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        if (isset($numbersSorted)) {
+        if (____) {
             echo "<br>";
             print_r($numbersSorted);
             if ($value_2 == 0) {
